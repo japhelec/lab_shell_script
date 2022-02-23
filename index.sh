@@ -3,9 +3,9 @@
 # Author : Kuei Kao
 # Script follows here:
 
-source /home/kuei/Documents/shell/path.sh
-source /home/kuei/Documents/shell/others.sh
-source /home/kuei/Documents/shell/ros.sh
+source /home/$USER/Documents/shell/path.sh
+source /home/$USER/Documents/shell/others.sh
+source /home/$USER/Documents/shell/ros.sh
 
 
 command () {

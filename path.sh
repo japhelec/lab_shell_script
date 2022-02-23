@@ -7,16 +7,16 @@
 ccd () { 
     if [ "$1" = "record" ]
         then
-        cd "/home/kuei/Documents/record"
+        cd "/home/$USER/Documents/record"
     elif [ "$1" = "ros" ]
         then
-        cd "/home/kuei/catkin_ws/src/research/src"
+        cd "/home/$USER/catkin_ws/src/research/src"
     elif [ "$1" = "code" ]
         then
-        cd "/home/kuei/Documents/code"
+        cd "/home/$USER/Documents/code"
     elif [ "$1" = "shell" ]
         then
-        cd "/home/kuei/Documents/shell"
+        cd "/home/$USER/Documents/shell"
     else
         echo "not valid path"
     fi
