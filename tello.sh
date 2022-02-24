@@ -19,5 +19,5 @@ tello () {
     fi
 }
 
-_ccd_options='driver takeoff land' # shortened for this answer
+_tello_options='driver takeoff land' # shortened for this answer
 complete -W "${_tello_options}" 'tello'
